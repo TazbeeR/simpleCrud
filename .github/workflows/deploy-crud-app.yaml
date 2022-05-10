@@ -24,4 +24,6 @@ jobs:
           ./mvnw clean install
           ./mvnw test
 
-          
+      - name: Run
+        run: |
+        ./mvnw spring-boot:run
