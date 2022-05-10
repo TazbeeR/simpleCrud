@@ -20,6 +20,8 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
       - name:  Check
-        run: ./mvnw test
+        run: |
+          ./mvnw clean install
+          ./mvnw test
 
           
