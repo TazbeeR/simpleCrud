@@ -63,33 +63,33 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-				<dependency>
-					<groupId>com.google.cloud</groupId>
-					<artifactId>spring-cloud-gcp-dependencies</artifactId>
-					<version>3.0.0</version>
-					<type>pom</type>
-					<scope>test</scope>
-				</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-gcp-starter</artifactId>
-			<version>1.2.8.RELEASE</version>
-		</dependency>
+<!--				<dependency>-->
+<!--					<groupId>com.google.cloud</groupId>-->
+<!--					<artifactId>spring-cloud-gcp-dependencies</artifactId>-->
+<!--					<version>3.0.0</version>-->
+<!--					<type>pom</type>-->
+<!--					<scope>test</scope>-->
+<!--				</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.cloud</groupId>-->
+<!--			<artifactId>spring-cloud-gcp-starter</artifactId>-->
+<!--			<version>1.2.8.RELEASE</version>-->
+<!--		</dependency>-->
 
-		<dependency>
-			<groupId>com.google.cloud.sql</groupId>
-			<artifactId>postgres-socket-factory</artifactId>
-			<version>1.5.0</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.google.cloud.sql</groupId>-->
+<!--			<artifactId>postgres-socket-factory</artifactId>-->
+<!--			<version>1.5.0</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-gcp-starter-sql-postgresql</artifactId>
-			<version>1.2.8.RELEASE</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.cloud</groupId>-->
+<!--			<artifactId>spring-cloud-gcp-starter-sql-postgresql</artifactId>-->
+<!--			<version>1.2.8.RELEASE</version>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
